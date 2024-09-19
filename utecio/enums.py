@@ -8,6 +8,7 @@ class DeviceLockModel(Enum):
     BoltNFC = "Bolt-NFC"
     LEVER = "LEVER"
     UBolt = "U-Bolt"
+    UBoltPro = "U-Bolt-Pro"
     UBoltWiFi = "U-Bolt-WiFi"
     UBoltZWave = "U-Bolt-ZWave"
     UL3 = "SmartLockByBle"
