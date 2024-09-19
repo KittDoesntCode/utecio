@@ -239,8 +239,6 @@ class DeviceLockUBoltPro(DeviceDefinition):
         self.lock = True
         self.bluetooth = True
         self.autolock = True
-        self.update_ota = True
-        self.update_wifi = False
         self.direction = True
         self.alerts = True
         self.mutemode = True
