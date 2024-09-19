@@ -232,7 +232,7 @@ class DeviceLockUBolt(DeviceDefinition):
 
 
 class DeviceLockUBoltPro(DeviceDefinition):
-    model = "U-Bolt-Pro"
+    model = "U-Bolt-PRO"
 
     def __init__(self) -> None:
         super().__init__()
