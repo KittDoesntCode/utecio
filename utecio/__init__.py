@@ -231,7 +231,7 @@ class DeviceLockUBolt(DeviceDefinition):
         self.keepalive = True
 
 
-class DeviceLockUboltPro(DeviceDefinition):
+class DeviceLockUBoltPro(DeviceDefinition):
     model = "U-Bolt-Pro"
 
     def __init__(self) -> None:
