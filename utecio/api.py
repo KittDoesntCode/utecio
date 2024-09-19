@@ -97,7 +97,7 @@ class UtecClient:
         auth_data = {
             "email": self.email,
             "timestamp": str(time.time()),
-            "password": self.password,
+            "password": self.password
         }
         data = {"data": json.dumps(auth_data), "token": self.token}
 
