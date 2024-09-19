@@ -231,6 +231,34 @@ class DeviceLockUBolt(DeviceDefinition):
         self.keepalive = True
 
 
+class DeviceLockUboltPro(DeviceDefinition):
+    model = "U-Bolt-Pro"
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.lock = True
+        self.bluetooth = True
+        self.autolock = True
+        self.update_ota = True
+        self.update_wifi = False
+        self.direction = True
+        self.alerts = True
+        self.mutemode = True
+        self.manual = True
+        self.shakeopen = True
+        self.havesn = True
+        self.needreadmodel = True
+        self.keypad = True
+        self.needregristerpwd = True
+        self.timelimit = True
+        self.moreadmin = True
+        self.lockout = True
+        self.bt264 = True
+        self.doorsensor = True
+        self.keepalive = True
+        self.autounlock = True
+
+
 class DeviceLockUboltWiFi(DeviceDefinition):
     model = "U-Bolt-WiFi"
 
@@ -387,6 +415,7 @@ known_devices: dict[str, DeviceDefinition] = {
     DeviceLockBoltNFC.model: DeviceLockBoltNFC(),
     DeviceLockLever.model: DeviceLockLever(),
     DeviceLockUBolt.model: DeviceLockUBolt(),
+    DeviceLockUBoltPro.model: DeviceLockUBoltPro(),
     DeviceLockUboltWiFi.model: DeviceLockUboltWiFi(),
     DeviceLockUBoltZwave.model: DeviceLockUBoltZwave(),
     DeviceLockUL3.model: DeviceLockUL3(),
