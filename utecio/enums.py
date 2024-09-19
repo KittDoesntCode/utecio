@@ -2,6 +2,7 @@ from enum import Enum
 
 
 class DeviceLockModel(Enum):
+    GenericLock = "GenericLock"
     UL1BT = "UL1-BT"
     Latch5NFC = "Latch-5-NFC"
     Latch5F = "Latch-5-F"
